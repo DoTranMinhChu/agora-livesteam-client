@@ -154,7 +154,7 @@ const Videos = (props: {
   tracks: [IMicrophoneAudioTrack, ICameraVideoTrack];
   host: boolean;
 }) => {
-  const { users, tracks, host } = props;
+  const { users, tracks } = props;
 
   return (
 
